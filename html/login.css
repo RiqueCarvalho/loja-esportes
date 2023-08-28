@@ -3,8 +3,8 @@ body {
     justify-content: center;
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 110px;
-    background-image: url(img/fitness.png);
+    padding: 210px;
+    background-image: url(/img/fitness.png);
     background-size: cover;
     background-position: center;
 }
@@ -20,10 +20,10 @@ form {
     flex: 1;
     margin-right: 10px;
     margin: 0 auto;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, 0.842);
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px 0px rgb(9, 255, 0);
+    box-shadow: 0px 0px 10px 0px rgb(0, 4, 255);
 }
 
 label {
@@ -49,7 +49,7 @@ input[type="E-mail"] {
 
 input[type="submit"],
 input[type="Cadastrar"] {
-    background-color: #1adb00;
+    background-color: #2600fc;
     color: #000000;
     padding: 10px 20px;
     border: none;
@@ -60,7 +60,7 @@ input[type="Cadastrar"] {
 
 input[type="submit"]:hover,
 input[type="Cadastrar"]:hover {
-    background-color: black;
+    background-color: rgb(24, 7, 180);
 }
 
 input[id="Cadastrar"] {
